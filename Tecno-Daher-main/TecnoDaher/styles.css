@@ -94,6 +94,10 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
+.company-info_titulo {
+    text-align: center;
+}
+
 .imgPrincipal {
     position: relative;
 }
@@ -142,11 +146,54 @@ nav a:hover {
 
 /* Adicione isso ao seu arquivo styles.css */
 
+
+.produtos {
+    margin-top: 50px;
+    text-align: center;
+    color: #0d214f;
+}
+
+.manutencao-eletrica {
+    width: 30%; /* Ajuste conforme necessário */
+    height: 80%;
+    border-radius: 10px;
+    background-color: #0d214f;
+    color: #fff; /* Branco */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.txt-manutencao-eletrica {
+    text-align: center;
+    color: #ffffff; /* Branco */
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.manutencao-eletrica, h2 {
+border-bottom: 1px solid #ffffff; /* Branco */
+padding-bottom: 10px;
+}
+
+.img-manutencao-eletrica {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    
+}
+
+.subTit_manutencao-eletrica {
+    color: #ffffff;
+}
+
 .rodape {
     background-color: #0d214f; /* Azul escuro */
     color: #fff; /* Branco */
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .icones {
@@ -156,6 +203,7 @@ nav a:hover {
 
 .icone {
     margin: 0 10px;
+    border-radius: 6px;
 }
 
 .icone img {
@@ -163,4 +211,8 @@ nav a:hover {
     border-radius: 5px;
     width: 30px; /* Ajuste conforme necessário */
     height: 30px; /* Ajuste conforme necessário */
+}
+
+.icon {
+    color: #0d214f;
 }
